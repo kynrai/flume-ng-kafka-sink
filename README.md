@@ -1,7 +1,7 @@
 flume-ng-kafka-sink
 ================
 
-This project is used for [flume-ng](https://github.com/apache/flume) to communicate with [kafka 0.7,2](http://kafka.apache.org/07/quickstart.html).
+This project is used for [flume-ng](https://github.com/apache/flume) to communicate with [kafka 0.8.1.1].
 
 Configuration of Kafka Sink
 ----------
@@ -13,9 +13,4 @@ Configuration of Kafka Sink
     agent_log.sinks.kafka.batchsize = 200
     agent_log.sinks.kafka.producer.type = async
     agent_log.sinks.kafka.serializer.class = kafka.serializer.StringEncoder
-
-Speical Thanks
----------
-
-In fact I'm a newbie in Java. I have learnt a lot from [flumg-ng-rabbitmq](https://github.com/jcustenborder/flume-ng-rabbitmq). Thanks to [Jeremy Custenborder](https://github.com/jcustenborder).
 
